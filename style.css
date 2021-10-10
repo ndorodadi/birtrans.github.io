@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+* {
+    padding:0;
+    margin:0;
+}
+/*buat ngilangin garis bawah pada tulisan*/
+a {
+	text-decoration: none;
+}
+
+/*buat border mitra atas*/
+.mitra {
+	color: #ffffff;
+	padding: 10px;
+	background-color: #e21a1a;
+}
+/*buat tulisan menu dan h1 rapih*/
+.container {
+    width:80%;
+	margin:0 auto;
+}
+/*buat isi dari menunya*/
+.container:after {
+	content:'';
+	display: block;
+	clear: both;
+}
+
+header ul {
+	float: right;
+}
+/*buat tulisan h 1 rata ke kiri dan warna*/
+header h1{
+    float: left;
+    padding: 15px 0px;
+	color: #e21a1a;
+	font-family: 'Arvo', serif;
+}
+
+header ul li {
+	display: inline-block;
+	font-family: 'Arvo', serif;
+
+}
+/*buat tulisan diklik ada paddingnya*/
+header ul li a {
+    padding:25px 20px;
+    display: inline-block; 
+}
+/*buat menu diklik ada warnanya*/
+header ul li a:hover {
+	background-color: #e21a1a;
+	   color: #fff;
+}
+fieldset {
+    border: 1px solid #DDDDDD;
+    display: inline-block;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding: 1em 2em;
+}
+ 
+legend {
+
+    background: #e21a1a;   
+    color: #FFFFFF;          
+    margin-bottom: 10px;
+    padding: 0.5em 1em;
+}
+/*buat footer bagian bawah*/
+footer {
+	padding:30px 0;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+}
+
+.form_daftar{
+	position: unset;
+	left: 15px;
+	padding: 10px;
+	font-size: 12pt;
+	margin-bottom: 10px;
+}
+
+.banner {
+	height: 100vh;
+	background-image: url(12.JPG);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner:after {
+	content: '';
+	display: block;
+	position:absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ff00003a;
+}
+.banner h2{
+	color: #fff;
+	z-index: 1;
+	padding: 20px 25px;
+	border: 3px solid #fff;
+}
+
+section{
+	padding: 50px 0;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-style: italic ;
+}
+
